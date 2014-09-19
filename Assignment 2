@@ -20,17 +20,17 @@
 +     x$setinverse(inv)
 +     inv
 + }
->  x = rbind(c(2, -1/8), c(-1/8, 2))
-> m = makeMatrix(x)
-> m$get()
+>  ##x = rbind(c(2, -1/8), c(-1/8, 2))
+> ##m = makeMatrix(x)
+> ##m$get()
        [,1]   [,2]
 [1,]  2.000 -0.125
 [2,] -0.125  2.000
-> cachesolve(m)
+> ##cachesolve(m)
            [,1]       [,2]
 [1,] 0.50196078 0.03137255
 [2,] 0.03137255 0.50196078
-> cachesolve(m)
+> ##cachesolve(m)
 getting cached data.
            [,1]       [,2]
 [1,] 0.50196078 0.03137255
